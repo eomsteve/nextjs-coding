@@ -12,7 +12,7 @@
 }
 
 .title {
-  @apply text-center font-bold text-3xl mt-10
+  @apply text-center font-bold text-3xl mt-10 mb-5
 }
 
 .title-sub{
@@ -32,3 +32,12 @@
   text-decoration: none;
   @apply mr-2
 }
+
+.cart-item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  line-height: 0px;
+  margin : 1rem;
+} 
