@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+  body {
+    @apply m-0 bg-[#303030] text-white
+  }
+  html{
+    @apply w-[100vw] h-[100vh]
+  }
+}
+
+.title {
+  @apply text-center font-bold text-3xl mt-10
+}
+
+.title-sub{
+  @apply text-center
+}
+
+.food {
+  margin : 20px auto;
+  @apply w-[200px] bg-white text-black p-5 rounded-md
+}
+
+.navbar {
+  @apply bg-white p-5 text-black
+}
+
+.navbar a{
+  text-decoration: none;
+  @apply mr-2
+}
